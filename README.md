@@ -36,7 +36,7 @@ yunsms sdk我们提供多种方法供用户使用：
 <dependency>
   <groupId>com.github.yunchaoyun</groupId>
   <artifactId>yunsms</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
 </dependency>
 	
 2. 直接将源代码引入到项目工程中，[源代码](https://github.com/yunchaoyun/yunsms "源代码")地址:https://github.com/yunchaoyun/yunsms
