@@ -23,8 +23,24 @@
 
 #### 安装
 yunsms sdk我们提供多种方法供用户使用：
-1. 直接将源代码引入到项目工程中，[源代码](https://github.com/yunchaoyun/yunsms "源代码")地址:https://github.com/yunchaoyun/yunsms
-2. 直接下载jar包，集成到项目工程中，jar包[下载地址](https://github.com/yunchaoyun/yunsms "下载地址"), lib文件夹中yunsms-1.0.jar。
+1. maven
+	在使用yunsms-java前，需要先在 pom.xml 中添加如下依赖：
+```java
+<dependency>
+  <groupId>com.github.yunchaoyun</groupId>
+  <artifactId>yunsms</artifactId>
+  <version>1.0</version>
+</dependency>
+​
+```
+<dependency>
+  <groupId>com.github.yunchaoyun</groupId>
+  <artifactId>yunsms</artifactId>
+  <version>1.0</version>
+</dependency>
+	
+2. 直接将源代码引入到项目工程中，[源代码](https://github.com/yunchaoyun/yunsms "源代码")地址:https://github.com/yunchaoyun/yunsms
+3. 直接下载jar包，集成到项目工程中，jar包[下载地址](https://github.com/yunchaoyun/yunsms "下载地址"), lib文件夹中yunsms-1.0.jar。
 
 #### 文档
 若您有问题，可以查看我们短信服务相关文档，[文档地址](https://www.yunchaoyun.com/api.html "文档地址")
