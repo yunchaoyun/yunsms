@@ -15,7 +15,7 @@ public class SmsStatusPullerResult extends SmsResultBase {
 
     public SmsStatusPullerResult() {
     	this.code = "0";
-        this.errMsg = "OK";
+        this.errMsg = "ok";
         this.result = new ArrayList<SmsStatusPullerStatusDomain>();
     }
 

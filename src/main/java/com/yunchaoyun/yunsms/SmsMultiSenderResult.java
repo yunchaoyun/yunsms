@@ -12,7 +12,7 @@ public class SmsMultiSenderResult extends SmsResultBase {
 
     public SmsMultiSenderResult() {
     	this.code = "0";
-        this.errMsg = "OK";
+        this.errMsg = "ok";
         this.ext = "";
         this.taskId = "";
     }
